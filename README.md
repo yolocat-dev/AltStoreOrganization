@@ -55,7 +55,7 @@ AltStore and AltServer are both fairly straightforward to compile and run if you
 	```
 2. Update submodules: 
 	```
-	cd AltStore 
+	cd AltStoreOrganization 
 	git submodule update --init --recursive
 	```
 3. Open `AltStore.xcworkspace` and select the AltStore project in the project navigator. On the `Signing & Capabilities` tab, change the team from `Yvette Testut` to your own account.
