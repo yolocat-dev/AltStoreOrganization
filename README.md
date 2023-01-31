@@ -1,10 +1,10 @@
-# AltStore
+# AltStoreOrganization
 
-> AltStore is an alternative app store for non-jailbroken iOS devices. 
+> AltStore is an alternative app store for non-jailbroken iOS devices.
+> AltStoreOrganization is a fork of AltStore which adds support for Organization Accounts.
 
 [![Swift Version](https://img.shields.io/badge/swift-5.0-orange.svg)](https://swift.org/)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 AltStore is an iOS application that allows you to sideload other apps (.ipa files) onto your iOS device with just your Apple ID. AltStore resigns apps with your personal development certificate and sends them to a desktop app, AltServer, which installs the resigned apps back to your device using iTunes WiFi sync. To prevent apps from expiring, AltStore will also periodically refresh your apps in the background when on the same WiFi as AltServer.
 
@@ -51,7 +51,7 @@ AltStore and AltServer are both fairly straightforward to compile and run if you
 
 1. Clone the repository 
 	``` 
-	git clone https://github.com/rileytestut/AltStore.git
+	git clone https://github.com/yolocat-dev/AltStoreOrganization.git
 	```
 2. Update submodules: 
 	```
